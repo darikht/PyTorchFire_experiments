@@ -1,0 +1,42 @@
+[build-system]
+requires = ["setuptools>=61", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pytorchfire-stare-hory-experiments"
+version = "0.1.0"
+description = "Staré Hory wildfire spread simulations using the PyTorchFire library."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [
+  { name = "Daria Kohut" }
+]
+keywords = ["wildfire", "cellular automata", "pytorchfire", "Staré Hory", "DTM Slovakia"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+  "Intended Audience :: Science/Research",
+  "Topic :: Scientific/Engineering :: GIS",
+  "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+
+dependencies = [
+  "pytorchfire>=0.1.0",
+  "torch>=2.0",
+  "numpy>=1.24",
+  "rasterio>=1.3",
+]
+
+[project.optional-dependencies]
+dev = [
+  "ipykernel",
+  "matplotlib",
+  "jupyter",
+]
+
+[project.urls]
+homepage = "https://github.com/your-username/pytorchfire-stare-hory-experiments"
+repository = "https://github.com/your-username/pytorchfire-stare-hory-experiments"
+

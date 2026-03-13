@@ -1,0 +1,29 @@
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+.venv/
+venv/
+env/
+*.env
+.DS_Store
+
+# Jupyter & IPython
+.ipynb_checkpoints/
+
+# Python packaging
+build/
+dist/
+*.egg-info/
+
+# IDE
+.vscode/
+.idea/
+
+# Data and outputs
+*.npy
+*.tif
+DTM_Slovakia_20m.tif
+stare_hory_outputs/
+
